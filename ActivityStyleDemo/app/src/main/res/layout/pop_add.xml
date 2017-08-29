@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mope_pop_window_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_add_friend"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/add_fd_icon"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="添加好友" />
+
+        <View style="@style/line_style" />
+
+        <TextView
+            android:id="@+id/tv_con_sweep"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/add_fd_code2_icon"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="扫一扫" />
+
+        <View style="@style/line_style" />
+
+
+        <TextView
+            android:id="@+id/tv_add_group"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/add_gp_icon"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="添加群组" />
+
+        <View style="@style/line_style" />
+
+        <TextView
+            android:id="@+id/tv_add_public_num"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/add_gzh_icon"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="添加公众号" />
+    </LinearLayout>
+</LinearLayout>

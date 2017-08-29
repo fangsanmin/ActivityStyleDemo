@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="activity_bg">#f7f8f8</color>
+    <color name="topbar_bg">#33cc99</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="alpha_1">#1000</color>
+    <color name="alpha_3">#3000</color>
+    <color name="alpha_6">#6000</color>
+    <color name="alpha_complete">#0000</color>
+
+    <color name="gray">#666666</color>
+    <color name="gray_2">#999999</color>
+    <color name="gray_3">#666666</color>
+    <color name="gray_4">#333333</color>
+    <color name="divider">#E6E6E6</color>
+
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="actionsheet_blue">#037BFF</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="bottom_tab_height">52dp</dimen>
+    <dimen name="topbar_add_width">25dp</dimen>
+    <dimen name="topbar_add_height">25dp</dimen>
+    <dimen name="topbar_add_right_margin">10dp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_middle">16sp</dimen>
+    <dimen name="text_size_big">19sp</dimen>
+    <dimen name="item_padding_top">15dp</dimen>
+    <dimen name="item_padding_bottom">15dp</dimen>
+</resources>

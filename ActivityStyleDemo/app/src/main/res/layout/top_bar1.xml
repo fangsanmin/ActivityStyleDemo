@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlBottomTabTopbar"
+    style="@style/topbar_bg">
+
+    <TextView
+        android:id="@+id/tv_tite"
+        style="@style/topbar_title"
+        android:text="@string/tv_main" />
+
+    <ImageView
+        android:id="@+id/img_add"
+        style="@style/topbar_add"
+        android:background="@drawable/selector_button_click" />
+
+</RelativeLayout>

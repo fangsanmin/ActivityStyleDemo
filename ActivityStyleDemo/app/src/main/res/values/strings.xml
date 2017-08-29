@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">界面样式封装</string>
+    <string name="btn_style1">底部标签栏导航</string>
+    <string name="tv_main">主页</string>
+    <string name="tv_message">消息</string>
+    <string name="tv_find">发现</string>
+    <string name="tv_setting">设置</string>
+</resources>

@@ -1,0 +1,167 @@
+<resources>
+
+    <style name="Window" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--修改系统自带的任务栏的背景颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--添加透明效果-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/alpha_6</item>
+    </style>
+
+    <style name="match_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:background">@color/alpha_3</item>
+    </style>
+
+    <style name="divider_horizontal_1px" parent="divider">
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+
+    <style name="divider_horizontal_1px_gray" parent="divider_horizontal_1px">
+        <item name="android:background">@color/gray_2</item>
+    </style>
+
+    <style name="ll_horizontal_match_wrap" parent="match_wrap">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="activity_page">
+        <!--<item name="android:splitMotionEvents">false</item>-->
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/activity_bg</item>
+        <item name="android:orientation">vertical</item>
+        <!-- 状态栏沉浸 <<<<<<<<<<<<<<<<< -->
+        <item name="android:clipToPadding">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <!-- 状态栏沉浸 >>>>>>>>>>>>>>>>> -->
+    </style>
+
+    <style name="bottom_window_page" parent="activity_page">
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:background">@color/alpha_complete</item>
+    </style>
+
+    <style name="ll_vertical_match_wrap" parent="match_wrap">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="topbar_bg">
+        <item name="android:background">@color/topbar_bg</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+    </style>
+
+    <style name="topbar_title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="topbar_add">
+        <item name="android:layout_width">@dimen/topbar_add_width</item>
+        <item name="android:layout_height">@dimen/topbar_add_height</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginRight">@dimen/topbar_add_right_margin</item>
+    </style>
+
+    <style name="ll_vertical_match_match" parent="match_match">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="bottom_tab_ll" parent="ll_vertical_match_match">
+        <item name="android:width">0dp</item>
+    </style>
+
+    <style name="img_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="bottom_tab_iv" parent="img_btn" />
+
+    <style name="text" parent="wrap_wrap">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/gray_3</item>
+    </style>
+
+    <style name="text_micro" parent="text">
+        <item name="android:textSize">@dimen/text_size_micro</item>
+    </style>
+
+    <style name="bottom_tab_tv" parent="text_micro">
+        <item name="android:textColor">@color/black_to_white_selector</item>
+    </style>
+
+    <style name="text_big" parent="text">
+        <item name="android:textSize">@dimen/text_size_big</item>
+    </style>
+
+    <style name="text_big_black" parent="text_big">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_middle" parent="text">
+        <item name="android:textSize">@dimen/text_size_middle</item>
+    </style>
+
+    <style name="line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <!-- 自定义仿IOS的ActionSheet底部Dialog的样式 ，有模糊效果 -->
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+</resources>
